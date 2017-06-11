@@ -935,7 +935,7 @@ h1, h2, h3 {
   opacity: 0;
   transition: opacity .1s ease-in;
   vertical-align: text-bottom;
-  display: inline-block;
+  display: none;
   width: auto;
   text-align: left;
   min-width: 500px;
@@ -946,9 +946,6 @@ h1, h2, h3 {
 }
 #features #indicator #indicator-bar .indicator-marker:hover {
   background: rgba(255, 255, 255, 0.2);
-}
-#features #indicator #indicator-bar .indicator-marker:hover span {
-  opacity: 1;
 }
 #features #indicator.indicator-shown {
   opacity: 1;
