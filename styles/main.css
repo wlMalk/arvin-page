@@ -1074,7 +1074,58 @@ h1, h2, h3 {
 }
 #card.form-submitted {
   background-color: #6790FB;
-  height: 84px !important;
+  height: 336px !important;
+}
+#card.form-submitted .share-buttons {
+  height: 44px;
+  margin: 0 auto;
+  display: inline-block;
+}
+#card.form-submitted .share-buttons li {
+  float: left;
+  width: 60px;
+  height: 44px;
+  margin: 0 5px;
+}
+#card.form-submitted .share-buttons li a {
+  height: 44px;
+  width: 60px;
+  display: block;
+  color: #6790FB;
+  border-radius: 7px;
+  border: 3px solid transparent;
+  background: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  line-height: 44px;
+}
+#card.form-submitted .share-buttons li a:hover {
+  background: #6790FB;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+}
+#card.form-submitted p.first {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  -webkit-column-break-inside: 29px;
+     page-break-inside: 29px;
+          break-inside: 29px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 19px;
+}
+#card.form-submitted p.last {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #021548;
+  line-height: 22px;
+  margin-bottom: 14px;
 }
 #card.form-submitted #waitlist-form {
   opacity: 0 !important;
@@ -1131,7 +1182,7 @@ h1, h2, h3 {
 
 @media (min-width: 320px) {
   #card {
-    width: 70%;
+    width: 85%;
   }
   #card input {
     font-size: 22px;
@@ -1142,13 +1193,21 @@ h1, h2, h3 {
 }
 @media (min-width: 600px) {
   #card {
-    width: 50%;
+    width: 53%;
   }
   #card input {
     font-size: 28px;
   }
 }
 @media (min-width: 801px) {
+  #card {
+    width: 43%;
+  }
+  #card input {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1220px) {
   #card {
     width: 30%;
   }
